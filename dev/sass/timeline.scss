@@ -105,6 +105,8 @@ $timeline-color: #ee4d4d;
 
 @media screen and (max-width: 768px) {
 	#timeline {
+		display: flex;
+		flex-direction: column;
 		margin: 30px;
 		padding: 0;
 		&:before {
